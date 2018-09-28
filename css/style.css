@@ -1,0 +1,71 @@
+body
+{
+	padding:0;
+	margin:0;
+}
+
+.navbar .navbar-nav
+{
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+}
+
+.navbar .navbar-collapse
+{
+	text-align: center;
+}
+
+.row
+{
+	margin-left:3px;
+	margin-right:3px;
+}
+
+.CodeMirror
+{
+	height: 100%;
+}
+
+.panel
+{
+	border-bottom-right-radius:0;
+	border-bottom-left-radius:0;
+}
+
+.panel-body
+{
+	padding:0;
+}
+
+#floatToRight
+{
+	position:absolute;
+	width:100%;
+	padding-right:40px;
+}
+
+#runButton
+{
+	float:right;
+	margin:0;
+	margin-top:6px
+}
+
+#resetButton
+{
+	float:right;
+	margin:0;
+	margin-top:6px;
+	margin-right:5px;
+}
+
+iframe
+{
+	margin:0;
+	padding:0 !important;
+	height:100%;
+	position:relative;
+	border:none;
+	width:100%;
+}

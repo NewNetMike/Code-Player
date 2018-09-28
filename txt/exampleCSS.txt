@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url("bg_main.png");
+    color:white;
+    font-family: monospace;
+}
+
+#container{
+    margin:0;
+    padding:0;
+}
+
+#topBar{
+    padding: 0;
+    margin:0;
+    height:48px;
+    width:100%;
+    background-image:url("bg_top.png");
+}
+
+.fixedwidth{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#topBar ul{
+    position:relative;
+    left:-30px;
+    float:left;
+    padding:0;
+    margin:0;
+}
+
+#topBar li{
+    float:left;
+    list-style:none;
+    color:white;
+    font-size:1.4em;
+    font-weight:bold;
+    padding:12px 7px 10px 7px;
+}
+
+#topBar img{
+    float:left;
+}
+
+#topBar p{
+    padding: 0;
+    margin: 0;
+    float:right;
+    color:#AAAAFF;
+    font-size:1.4em;
+    font-weight:bold;
+    margin:12px 5px 10px 0px;
+    padding-left:5px;
+}
+
+.clear{
+    clear:both;
+}
+
+#leftBar{
+    width: 660px;
+    font-weight:normal;
+    color:#E3E3E3;
+}
+
+#logo{
+    position:relative;
+    left:-15px;
+}
+
+#rightBar{
+    float:right;
+    height:200px;
+    margin:0;
+    margin-top:30px;
+    padding:0;
+    width: 305px;
+}
+
+#rightBar img{
+    float:right;
+}
+
+#getButton{
+    font-size:1.4em;
+    color:white;
+    background-color:orange;
+    border:none;
+    width: 200px;
+    height: 40px;
+    margin-left:52px;
+    margin-top:20px;
+}
+
+#rightBar p{
+    text-align:center;
+}
+
+.blue{
+    color:#AAAAFF;
+}
+
+#loggin{
+    position:relative;
+    left:-0px;
+}

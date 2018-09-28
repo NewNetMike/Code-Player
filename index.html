@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Code Player - Test your HTML, CSS, and JavaScript code directly in your browser!</title>
+		
+		<meta charset="utf-8"/>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta name="description" content="Test your HTML, CSS, and JavaScript code directly in your browser!"/>
+		
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="https://codemirror.net/lib/codemirror.css">
+		<link rel="stylesheet" href="css/style.css">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		
+		<script src="https://codemirror.net/lib/codemirror.js"></script>
+		<script src="https://codemirror.net/mode/xml/xml.js"></script>
+		<script src="https://codemirror.net/mode/javascript/javascript.js"></script>
+		<script src="https://codemirror.net/mode/css/css.js"></script>
+		<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+		
+	</head>
+	
+	<body>
+		<div class="navbar navbar-default">
+			<div id="floatToRight">
+				<a href="#" id="runButton" class="btn btn-md btn-success">Run</a>
+				<a href="#" id="resetButton" class="btn btn-md btn-danger">Reset</a>
+			</div>
+				
+			<div class="navbar-header" style="position: absolute;">
+				<a href="#" class="navbar-brand" style="margin-left:33px">Code Player</a>
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle Navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</div>
+			
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li id="HTMLtoggle" class="toggle"><a href="#">HTML</a></li>
+					<li id="CSStoggle" class="toggle"><a href="#">CSS</a></li>
+					<li id="JStoggle" class="toggle"><a href="#">JavaScript</a></li>
+					<li id="ResultToggle" class="toggle"><a href="#">Result</a></li>
+				</ul>
+			</div>
+		</div>
+	
+		<div class="row">
+			<div class="codeContainer col-md-6" id="HTMLContainer" style="display:none;">
+				<div class="panel panel-primary">
+					<div class="panel-heading">HTML</div>
+					<div class="panel-body">
+						<textarea id="htmlCode"></textarea>
+					</div>
+				</div>
+			</div>
+				
+			<div class="codeContainer col-md-6" id="CSSContainer" style="display:none;">
+				<div class="panel panel-primary">
+					<div class="panel-heading">CSS</div>
+					<div class="panel-body">
+						<textarea id="cssCode"></textarea>
+					</div>
+				</div>
+			</div>
+				
+			<div class="codeContainer col-md-6"  id="JavaScriptContainer"  style="display:none;">
+				<div class="panel panel-primary">
+					<div class="panel-heading">JavaScript</div>
+					<div class="panel-body">
+						<textarea id="jsCode"></textarea>
+					</div>
+				</div>
+			</div>
+				
+			<div class="codeContainer col-md-6"  id="ResultContainer" style="display:none;">
+				<div class="panel panel-primary">
+					<div class="panel-heading">Result</div>
+					<div class="panel-body">
+						<iframe id="resultFrame"></iframe>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	
+		<script src="js/script.js"></script>
+	</body>
+</html>

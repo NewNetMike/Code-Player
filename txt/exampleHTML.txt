@@ -1,0 +1,60 @@
+<body>
+    <div id="container">
+        <div id="topBar">
+            <div class="fixedwidth">
+                <img src="MIKECRAFT.png" height="50px" id="logo"/>
+                <ul>
+                    <li>Home</li>
+                    <li>Game</li>
+                    <li>Community</li>
+                    <li>Store</li>
+                    <li>Profile</li>
+                    <li>Help</li>
+                </ul>
+                
+                <div id="loggin">
+                <p style="border-left:2px #AAAAFF solid;">Register</p>
+                <p>Log in</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="clear"></div>
+        
+        <div class="fixedwidth">
+            <div id="content">
+                <div id="rightBar">
+                    <img src="animals.png" />
+                    <button id="getButton">Get Minecraft</button>
+                    <div id="clear"></div>
+                    <p>26.95 USD</p>
+                    <p><span class="blue">or play the demo</span></p>
+                    <p>Already bought the game?<br/><span class="blue">Download it here</span></p>
+                </div>
+                
+                <div id="leftBar">
+                    <iframe width="660" height="371"src="https://www.youtube.com/embed/MmB9b5njVbA?hd=1&rel=0&autohide=1&showinfo=0&wmode=opaque"
+                    frameborder="0" allowfullscreen style="margin-top:30px;"></iframe>
+                    
+                    <p>Minecraft is a game about breaking and placing blocks. At first, people built 
+                    structures to protect against nocturnal monsters, but as the game grew players 
+                    worked together to create wonderful, imaginative things.</p>
+                    
+                    <p>It can also be about adventuring with friends or watching the sun rise over a 
+                    blocky ocean. It's pretty. Brave players battle terrible things in The Nether, 
+                    which is more scary than pretty. You can also visit a land of mushrooms if it 
+                    sounds more like your cup of tea.</p>
+                    
+                    <p>You can <span class="blue">buy Minecraft for PC/Mac here, Minecraft: Xbox 360 Edition</span> and 
+                    <span class="blue">Minecraft: Xbox One Edition</span> on the XBLA Marketplace, and <span class="blue">Minecraft: Windows 
+                    10 Edition Beta</span> on the Microsoft Store, and <span class="blue">Minecraft: Playstation 3 Edition, 
+                    Minecraft: Playstation 4 Edition</span>, and <span class="blue">Minecraft: Playstation Vita Edition</span> on 
+                    the Playstation Network. Minecraft: Pocket Edition is available for <span class="blue">iOS, 
+                    Android, Windows Phone<span>, and <span class="blue">Amazon Kindle Fire</span>.</p>
+                    
+                    <p>So far 20,910,586 people bought the PC/Mac version of the game. Phew.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
