@@ -2,7 +2,7 @@
     <div id="container">
         <div id="topBar">
             <div class="fixedwidth">
-                <img src="MIKECRAFT.png" height="50px" id="logo"/>
+                <img src="https://mycxle.github.io/MikeCraft/MIKECRAFT.png" height="50px" id="logo"/>
                 <ul>
                     <li>Home</li>
                     <li>Game</li>
@@ -24,7 +24,7 @@
         <div class="fixedwidth">
             <div id="content">
                 <div id="rightBar">
-                    <img src="animals.png" />
+                    <img src="https://mycxle.github.io/MikeCraft/animals.png" />
                     <button id="getButton">Get Minecraft</button>
                     <div id="clear"></div>
                     <p>26.95 USD</p>

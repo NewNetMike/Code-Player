@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-image:url("bg_main.png");
+    background-image:url("https://mycxle.github.io/MikeCraft/bg_main.png");
     color:white;
     font-family: monospace;
 }
@@ -16,7 +16,7 @@ body{
     margin:0;
     height:48px;
     width:100%;
-    background-image:url("bg_top.png");
+    background-image:url("https://mycxle.github.io/MikeCraft/bg_top.png");
 }
 
 .fixedwidth{
