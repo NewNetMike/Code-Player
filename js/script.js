@@ -59,15 +59,15 @@ swal({
 });
 
 // ...
-jQuery.get('https://github.com/mycxle/Code-Player/blob/txt/exampleHTML.txt', function(data)
+jQuery.get('https://mycxle.github.io/Code-Player/txt/exampleHTML.txt', function(data)
 {
 	document.getElementById("htmlCode").innerHTML = data;
 	
-	jQuery.get('https://github.com/mycxle/Code-Player/blob/txt/exampleCSS.txt', function(data)
+	jQuery.get('https://mycxle.github.io/Code-Player/txt/exampleCSS.txt', function(data)
 	{
 		document.getElementById("cssCode").innerHTML = data;
 		
-		jQuery.get('https://github.com/mycxle/Code-Player/blob/txt/exampleJS.txt', function(data)
+		jQuery.get('https://mycxle.github.io/Code-Player/txt/exampleJS.txt', function(data)
 		{
 			document.getElementById("jsCode").innerHTML = data;
 			
